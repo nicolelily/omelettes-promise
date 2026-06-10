@@ -113,7 +113,7 @@ img { max-width: 100%; display: block; }
   gap: 0.5rem;
   text-decoration: none;
 }
-.brand-paw { font-size: 1.3rem; }
+.brand-logo { height: 32px; width: auto; }
 .brand-name {
   font-family: var(--font-display);
   font-weight: 700;

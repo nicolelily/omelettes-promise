@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-48 -36 96 70" role="img" aria-label="Omelette's Promise logo: a heart containing a rising sun over green grass">
+  <defs>
+    <clipPath id="heart-clip">
+      <path d="M0,30 C-44,4 -38,-32 -13,-32 C-5,-32 0,-26 0,-19 C0,-26 5,-32 13,-32 C38,-32 44,4 0,30 Z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#heart-clip)">
+    <rect x="-48" y="-36" width="96" height="70" fill="#fdf8f0"/>
+    <g stroke="#c47a2b" stroke-width="3" stroke-linecap="round">
+      <line x1="0" y1="-17" x2="0" y2="-23"/>
+      <line x1="10.6" y1="-12.6" x2="14.8" y2="-16.8"/>
+      <line x1="-10.6" y1="-12.6" x2="-14.8" y2="-16.8"/>
+      <line x1="15" y1="-2" x2="21" y2="-2"/>
+      <line x1="-15" y1="-2" x2="-21" y2="-2"/>
+    </g>
+    <circle cx="0" cy="-2" r="11" fill="#c47a2b"/>
+    <ellipse cx="0" cy="34" rx="46" ry="22" fill="#4e6e4e"/>
+  </g>
+  <path d="M0,30 C-44,4 -38,-32 -13,-32 C-5,-32 0,-26 0,-19 C0,-26 5,-32 13,-32 C38,-32 44,4 0,30 Z" fill="none" stroke="#4a3527" stroke-width="3.5" stroke-linejoin="round"/>
+</svg>
