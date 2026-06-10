@@ -7,7 +7,6 @@
   <g clip-path="url(#heart-clip)">
     <rect x="-48" y="-36" width="96" height="70" fill="#fdf8f0"/>
     <g stroke="#c47a2b" stroke-width="3" stroke-linecap="round">
-      <line x1="0" y1="-17" x2="0" y2="-23"/>
       <line x1="10.6" y1="-12.6" x2="14.8" y2="-16.8"/>
       <line x1="-10.6" y1="-12.6" x2="-14.8" y2="-16.8"/>
       <line x1="15" y1="-2" x2="21" y2="-2"/>
