@@ -58,15 +58,3 @@ document.querySelectorAll('form[data-form]').forEach((form) => {
     }
   });
 });
-
-// Donate placeholder
-document.querySelectorAll('[data-placeholder="donate"]').forEach((btn) => {
-  btn.addEventListener('click', (e) => {
-    e.preventDefault();
-    const note = btn.nextElementSibling;
-    if (note) {
-      note.textContent = 'Online donations are coming soon — thank you for wanting to support Omelette’s Promise!';
-      note.style.fontWeight = '600';
-    }
-  });
-});
