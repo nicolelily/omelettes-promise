@@ -103,6 +103,8 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1.5rem;
+  max-width: 1280px;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
 }
@@ -474,7 +476,7 @@ img { max-width: 100%; display: block; }
   .footer-grid { grid-template-columns: 1fr; gap: 1.8rem; }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1230px) {
   .nav-toggle { display: flex; }
   .nav-links {
     display: none;
