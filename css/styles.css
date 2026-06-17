@@ -210,6 +210,9 @@ img { max-width: 100%; display: block; }
 }
 .photo-fallback span { font-size: 3rem; }
 
+.story-photo { max-width: 440px; margin: 2.8rem auto 0; }
+.story-photo img { transform: rotate(-1.5deg); }
+
 /* ============ Sections ============ */
 
 .section { padding: 4.5rem 0; }
