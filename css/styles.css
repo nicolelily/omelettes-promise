@@ -254,6 +254,7 @@ img { max-width: 100%; display: block; }
   color: var(--amber-dark);
 }
 .stat-label { font-size: 0.88rem; color: var(--muted); }
+.stat-win .stat-number { color: var(--green-dark); }
 
 /* ============ Cards ============ */
 
