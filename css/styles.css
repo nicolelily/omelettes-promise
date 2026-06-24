@@ -290,6 +290,71 @@ img { max-width: 100%; display: block; }
 
 .funding-note { margin-top: 3rem; }
 
+/* ============ Recommended Products ============ */
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.4rem;
+  margin-top: 2rem;
+}
+
+.product-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 1.8rem;
+  box-shadow: var(--shadow);
+  border-top: 5px solid var(--amber);
+}
+
+.product-media {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  font-size: 2.4rem;
+  border-radius: 50%;
+  background: var(--brown-soft);
+}
+
+.product-body { flex: 1; }
+.product-body h3 { margin-top: 0; }
+.product-body > p { font-size: 0.95rem; color: var(--muted); }
+
+.promo { margin: 1.2rem 0 1.4rem; }
+.promo-code {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  padding: 0.6rem 1rem;
+  border: 2px dashed var(--amber);
+  border-radius: 10px;
+  background: var(--cream);
+}
+.promo-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.promo-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.06em;
+  color: var(--amber-dark);
+}
+.promo-expiry { margin-top: 0.55rem; }
+
+.product-note { margin-top: 2rem; text-align: center; }
+
 /* ============ Get Involved ============ */
 
 .involve-grid {
@@ -505,4 +570,5 @@ img { max-width: 100%; display: block; }
 @media (max-width: 720px) {
   .stat-row { grid-template-columns: 1fr; }
   .section { padding: 3rem 0; }
+  .product-card { flex-direction: column; gap: 1.1rem; }
 }
