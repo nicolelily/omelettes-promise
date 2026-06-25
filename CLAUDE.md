@@ -41,6 +41,13 @@ settings safe (education, activated GPS collars, and 24/7 support).
 - Copy tends to reference Omelette's story (e.g. "felt the sun"), Ridglan Farms closing,
   and the ~15,000 dogs still at Marshall BioResources. Keep that voice.
 
+## Common updates
+
+- **Update the "GPS collars donated" count.** In `index.html`, find the stat card marked
+  with `<!-- Update this number as collars are donated -->` (in the Story section's
+  `.stat-row`) and change the number inside `<span class="stat-number">`. Then commit and
+  push. That's the only edit needed — the card styling and layout stay the same.
+
 ## To-do / ideas
 
 - [ ] **Resources page photo gallery.** The resources page currently uses a single
